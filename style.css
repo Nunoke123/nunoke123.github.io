@@ -1,1 +1,73 @@
+html{
+    scroll-behavior: smooth;
+}
 
+body {
+    margin: 0;
+    background-color: green;
+}
+
+nav {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.links a {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tps {
+    background-color: purple;
+    width: 75svw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tps img {
+    filter: none;
+    transition: 0.5s;
+    scale: 1;
+}
+
+.tps img:hover {
+    filter: drop-shadow(0 0 10px blue);
+    scale: 1.1;
+}
+
+#school {
+    background-color: white;
+    width: 75svw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schoolprojects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
