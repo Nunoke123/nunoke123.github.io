@@ -47,13 +47,13 @@ h1 {
     align-items: center;
 }
 
-.tps img {
+#tps img {
     filter: none;
     transition: 0.5s;
     scale: 1;
 }
 
-.tps img:hover {
+#tps img:hover {
     filter: drop-shadow(0 0 10px blue);
     scale: 1.1;
 }
