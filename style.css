@@ -4,7 +4,8 @@ html{
 
 body {
     margin: 0;
-    background-color: green;
+    background-color: darkgreen;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 nav {
@@ -29,8 +30,16 @@ h1 {
 .links a {
     color: white;
     border: 1px solid white;
+    border-radius: 10px;
     padding: 10px;
     text-decoration: none;
+}
+
+.about {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .projects {
@@ -45,6 +54,12 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px;
+    transition: 0.25s;
+}
+
+#tps:hover {
+    padding: 10px;
 }
 
 #tps img {
@@ -70,4 +85,14 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.error {
+    color: white;
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
