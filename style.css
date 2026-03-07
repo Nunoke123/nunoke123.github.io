@@ -6,6 +6,8 @@ body {
     margin: 0;
     background-color: green;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width: 100svw;
+    height: 100svh;
 }
 
 nav {
@@ -117,7 +119,7 @@ h1 {
 }
 
 .socialsButtons img {
-    width: 128px;
+    width: 7svw;
 }
 
 .socialsButtons a {
