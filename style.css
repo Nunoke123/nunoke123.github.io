@@ -107,7 +107,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .socialsButtons {
@@ -131,13 +130,6 @@ h1 {
 .socialsButtons a:hover {
     padding-bottom: 20px;
     filter: drop-shadow(0 0 15px white);
-}
-
-@media screen and (orientation: portrait) {
-  #socials {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
 }
 
 .error {
